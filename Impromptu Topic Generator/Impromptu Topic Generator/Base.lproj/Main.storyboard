@@ -170,6 +170,14 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Topic: " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cEl-u0-Mvp">
+                                <rect key="frame" x="20" y="190" width="280" height="142"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="KmM-LK-kkl">
                                 <rect key="frame" x="0.0" y="524" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -180,7 +188,13 @@
                                             <action selector="pause:" destination="fKd-ZQ-kfo" id="1c1-LC-lyV"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="2Pc-a3-fG5"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="epX-6P-9Bx"/>
+                                    <barButtonItem title="Done" width="188" id="7Gw-XE-3ur">
+                                        <connections>
+                                            <segue destination="aQt-D0-2OE" kind="push" id="5wp-oN-hKq"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="JrY-Xd-WxB"/>
                                     <barButtonItem systemItem="play" id="sh8-e3-KKK">
                                         <connections>
                                             <action selector="play:" destination="fKd-ZQ-kfo" id="2qN-mB-OI0"/>
@@ -190,14 +204,6 @@
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="barTintColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                             </toolbar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Topic: " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cEl-u0-Mvp">
-                                <rect key="frame" x="20" y="190" width="280" height="142"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="40"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="0.20000000000000001" green="0.59999999999999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -275,6 +281,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="8Al-qt-lHV"/>
+        <segue reference="5wp-oN-hKq"/>
         <segue reference="w2t-EJ-Iai"/>
     </inferredMetricsTieBreakers>
 </document>
