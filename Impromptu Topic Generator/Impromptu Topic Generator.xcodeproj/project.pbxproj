@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1C1AC2A1C13FAD500E25794 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C1AC291C13FAD500E25794 /* AppDelegate.swift */; };
+		E1C1AC2C1C13FAD500E25794 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C1AC2B1C13FAD500E25794 /* ViewController.swift */; };
+		E1C1AC2F1C13FAD500E25794 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1C1AC2D1C13FAD500E25794 /* Main.storyboard */; };
+		E1C1AC311C13FAD500E25794 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1C1AC301C13FAD500E25794 /* Assets.xcassets */; };
+		E1C1AC341C13FAD500E25794 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1C1AC321C13FAD500E25794 /* LaunchScreen.storyboard */; };
+		E1C1AC3F1C13FAD500E25794 /* Impromptu_Topic_GeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C1AC3E1C13FAD500E25794 /* Impromptu_Topic_GeneratorTests.swift */; };
+		E1C1AC4A1C13FAD500E25794 /* Impromptu_Topic_GeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C1AC491C13FAD500E25794 /* Impromptu_Topic_GeneratorUITests.swift */; };
+		E1C1AC581C13FB7C00E25794 /* ImpromptuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C1AC571C13FB7C00E25794 /* ImpromptuViewController.swift */; };
+		E1C1AC5A1C13FB8400E25794 /* ImpTopicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C1AC591C13FB8400E25794 /* ImpTopicViewController.swift */; };
+		E1C1AC5E1C13FBFB00E25794 /* DisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C1AC5D1C13FBFB00E25794 /* DisplayViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1C1AC3B1C13FAD500E25794 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1C1AC1E1C13FAD500E25794 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1C1AC251C13FAD500E25794;
+			remoteInfo = "Impromptu Topic Generator";
+		};
+		E1C1AC461C13FAD500E25794 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1C1AC1E1C13FAD500E25794 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1C1AC251C13FAD500E25794;
+			remoteInfo = "Impromptu Topic Generator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E1C1AC261C13FAD500E25794 /* Impromptu Topic Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Impromptu Topic Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1C1AC291C13FAD500E25794 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1C1AC2B1C13FAD500E25794 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1C1AC2E1C13FAD500E25794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1C1AC301C13FAD500E25794 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1C1AC331C13FAD500E25794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1C1AC351C13FAD500E25794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1C1AC3A1C13FAD500E25794 /* Impromptu Topic GeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Impromptu Topic GeneratorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1C1AC3E1C13FAD500E25794 /* Impromptu_Topic_GeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Impromptu_Topic_GeneratorTests.swift; sourceTree = "<group>"; };
+		E1C1AC401C13FAD500E25794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1C1AC451C13FAD500E25794 /* Impromptu Topic GeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Impromptu Topic GeneratorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1C1AC491C13FAD500E25794 /* Impromptu_Topic_GeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Impromptu_Topic_GeneratorUITests.swift; sourceTree = "<group>"; };
+		E1C1AC4B1C13FAD500E25794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1C1AC571C13FB7C00E25794 /* ImpromptuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImpromptuViewController.swift; sourceTree = "<group>"; };
+		E1C1AC591C13FB8400E25794 /* ImpTopicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImpTopicViewController.swift; sourceTree = "<group>"; };
+		E1C1AC5D1C13FBFB00E25794 /* DisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1C1AC231C13FAD500E25794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C1AC371C13FAD500E25794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C1AC421C13FAD500E25794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1C1AC1D1C13FAD500E25794 = {
+			isa = PBXGroup;
+			children = (
+				E1C1AC281C13FAD500E25794 /* Impromptu Topic Generator */,
+				E1C1AC3D1C13FAD500E25794 /* Impromptu Topic GeneratorTests */,
+				E1C1AC481C13FAD500E25794 /* Impromptu Topic GeneratorUITests */,
+				E1C1AC271C13FAD500E25794 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1C1AC271C13FAD500E25794 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1C1AC261C13FAD500E25794 /* Impromptu Topic Generator.app */,
+				E1C1AC3A1C13FAD500E25794 /* Impromptu Topic GeneratorTests.xctest */,
+				E1C1AC451C13FAD500E25794 /* Impromptu Topic GeneratorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1C1AC281C13FAD500E25794 /* Impromptu Topic Generator */ = {
+			isa = PBXGroup;
+			children = (
+				E1C1AC291C13FAD500E25794 /* AppDelegate.swift */,
+				E1C1AC2D1C13FAD500E25794 /* Main.storyboard */,
+				E1C1AC2B1C13FAD500E25794 /* ViewController.swift */,
+				E1C1AC571C13FB7C00E25794 /* ImpromptuViewController.swift */,
+				E1C1AC591C13FB8400E25794 /* ImpTopicViewController.swift */,
+				E1C1AC5D1C13FBFB00E25794 /* DisplayViewController.swift */,
+				E1C1AC301C13FAD500E25794 /* Assets.xcassets */,
+				E1C1AC321C13FAD500E25794 /* LaunchScreen.storyboard */,
+				E1C1AC351C13FAD500E25794 /* Info.plist */,
+			);
+			path = "Impromptu Topic Generator";
+			sourceTree = "<group>";
+		};
+		E1C1AC3D1C13FAD500E25794 /* Impromptu Topic GeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1C1AC3E1C13FAD500E25794 /* Impromptu_Topic_GeneratorTests.swift */,
+				E1C1AC401C13FAD500E25794 /* Info.plist */,
+			);
+			path = "Impromptu Topic GeneratorTests";
+			sourceTree = "<group>";
+		};
+		E1C1AC481C13FAD500E25794 /* Impromptu Topic GeneratorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1C1AC491C13FAD500E25794 /* Impromptu_Topic_GeneratorUITests.swift */,
+				E1C1AC4B1C13FAD500E25794 /* Info.plist */,
+			);
+			path = "Impromptu Topic GeneratorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1C1AC251C13FAD500E25794 /* Impromptu Topic Generator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1C1AC4E1C13FAD500E25794 /* Build configuration list for PBXNativeTarget "Impromptu Topic Generator" */;
+			buildPhases = (
+				E1C1AC221C13FAD500E25794 /* Sources */,
+				E1C1AC231C13FAD500E25794 /* Frameworks */,
+				E1C1AC241C13FAD500E25794 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Impromptu Topic Generator";
+			productName = "Impromptu Topic Generator";
+			productReference = E1C1AC261C13FAD500E25794 /* Impromptu Topic Generator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1C1AC391C13FAD500E25794 /* Impromptu Topic GeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1C1AC511C13FAD500E25794 /* Build configuration list for PBXNativeTarget "Impromptu Topic GeneratorTests" */;
+			buildPhases = (
+				E1C1AC361C13FAD500E25794 /* Sources */,
+				E1C1AC371C13FAD500E25794 /* Frameworks */,
+				E1C1AC381C13FAD500E25794 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1C1AC3C1C13FAD500E25794 /* PBXTargetDependency */,
+			);
+			name = "Impromptu Topic GeneratorTests";
+			productName = "Impromptu Topic GeneratorTests";
+			productReference = E1C1AC3A1C13FAD500E25794 /* Impromptu Topic GeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1C1AC441C13FAD500E25794 /* Impromptu Topic GeneratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1C1AC541C13FAD500E25794 /* Build configuration list for PBXNativeTarget "Impromptu Topic GeneratorUITests" */;
+			buildPhases = (
+				E1C1AC411C13FAD500E25794 /* Sources */,
+				E1C1AC421C13FAD500E25794 /* Frameworks */,
+				E1C1AC431C13FAD500E25794 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1C1AC471C13FAD500E25794 /* PBXTargetDependency */,
+			);
+			name = "Impromptu Topic GeneratorUITests";
+			productName = "Impromptu Topic GeneratorUITests";
+			productReference = E1C1AC451C13FAD500E25794 /* Impromptu Topic GeneratorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1C1AC1E1C13FAD500E25794 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Avinash Jain";
+				TargetAttributes = {
+					E1C1AC251C13FAD500E25794 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					E1C1AC391C13FAD500E25794 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = E1C1AC251C13FAD500E25794;
+					};
+					E1C1AC441C13FAD500E25794 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = E1C1AC251C13FAD500E25794;
+					};
+				};
+			};
+			buildConfigurationList = E1C1AC211C13FAD500E25794 /* Build configuration list for PBXProject "Impromptu Topic Generator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1C1AC1D1C13FAD500E25794;
+			productRefGroup = E1C1AC271C13FAD500E25794 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1C1AC251C13FAD500E25794 /* Impromptu Topic Generator */,
+				E1C1AC391C13FAD500E25794 /* Impromptu Topic GeneratorTests */,
+				E1C1AC441C13FAD500E25794 /* Impromptu Topic GeneratorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1C1AC241C13FAD500E25794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C1AC341C13FAD500E25794 /* LaunchScreen.storyboard in Resources */,
+				E1C1AC311C13FAD500E25794 /* Assets.xcassets in Resources */,
+				E1C1AC2F1C13FAD500E25794 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C1AC381C13FAD500E25794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C1AC431C13FAD500E25794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1C1AC221C13FAD500E25794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C1AC5E1C13FBFB00E25794 /* DisplayViewController.swift in Sources */,
+				E1C1AC2C1C13FAD500E25794 /* ViewController.swift in Sources */,
+				E1C1AC581C13FB7C00E25794 /* ImpromptuViewController.swift in Sources */,
+				E1C1AC2A1C13FAD500E25794 /* AppDelegate.swift in Sources */,
+				E1C1AC5A1C13FB8400E25794 /* ImpTopicViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C1AC361C13FAD500E25794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C1AC3F1C13FAD500E25794 /* Impromptu_Topic_GeneratorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C1AC411C13FAD500E25794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C1AC4A1C13FAD500E25794 /* Impromptu_Topic_GeneratorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1C1AC3C1C13FAD500E25794 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1C1AC251C13FAD500E25794 /* Impromptu Topic Generator */;
+			targetProxy = E1C1AC3B1C13FAD500E25794 /* PBXContainerItemProxy */;
+		};
+		E1C1AC471C13FAD500E25794 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1C1AC251C13FAD500E25794 /* Impromptu Topic Generator */;
+			targetProxy = E1C1AC461C13FAD500E25794 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1C1AC2D1C13FAD500E25794 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1C1AC2E1C13FAD500E25794 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1C1AC321C13FAD500E25794 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1C1AC331C13FAD500E25794 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1C1AC4C1C13FAD500E25794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1C1AC4D1C13FAD500E25794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1C1AC4F1C13FAD500E25794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Impromptu Topic Generator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CodeDay.Impromptu-Topic-Generator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E1C1AC501C13FAD500E25794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Impromptu Topic Generator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CodeDay.Impromptu-Topic-Generator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E1C1AC521C13FAD500E25794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Impromptu Topic GeneratorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CodeDay.Impromptu-Topic-GeneratorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Impromptu Topic Generator.app/Impromptu Topic Generator";
+			};
+			name = Debug;
+		};
+		E1C1AC531C13FAD500E25794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Impromptu Topic GeneratorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CodeDay.Impromptu-Topic-GeneratorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Impromptu Topic Generator.app/Impromptu Topic Generator";
+			};
+			name = Release;
+		};
+		E1C1AC551C13FAD500E25794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Impromptu Topic GeneratorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CodeDay.Impromptu-Topic-GeneratorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Impromptu Topic Generator";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E1C1AC561C13FAD500E25794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Impromptu Topic GeneratorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CodeDay.Impromptu-Topic-GeneratorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Impromptu Topic Generator";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1C1AC211C13FAD500E25794 /* Build configuration list for PBXProject "Impromptu Topic Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1C1AC4C1C13FAD500E25794 /* Debug */,
+				E1C1AC4D1C13FAD500E25794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1C1AC4E1C13FAD500E25794 /* Build configuration list for PBXNativeTarget "Impromptu Topic Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1C1AC4F1C13FAD500E25794 /* Debug */,
+				E1C1AC501C13FAD500E25794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1C1AC511C13FAD500E25794 /* Build configuration list for PBXNativeTarget "Impromptu Topic GeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1C1AC521C13FAD500E25794 /* Debug */,
+				E1C1AC531C13FAD500E25794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1C1AC541C13FAD500E25794 /* Build configuration list for PBXNativeTarget "Impromptu Topic GeneratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1C1AC551C13FAD500E25794 /* Debug */,
+				E1C1AC561C13FAD500E25794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1C1AC1E1C13FAD500E25794 /* Project object */;
+}
