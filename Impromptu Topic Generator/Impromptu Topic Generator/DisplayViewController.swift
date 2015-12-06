@@ -18,7 +18,7 @@ class DisplayViewController: UIViewController {
     
     @IBOutlet var titleLabel: UILabel!
     
-    var secondsLeft = 12
+    var secondsLeft = 120
     var minutes = 2
     var seconds = 0
     
@@ -53,7 +53,7 @@ class DisplayViewController: UIViewController {
         secondsLeft--
         if secondsLeft == 0 && prepTime == true{
             prepTime = false
-            secondsLeft = 12
+            secondsLeft = 300
             
             self.titleLabel.text = "Speak!"
             self.view.backgroundColor = UIColor(red:0.20, green:0.60, blue:1.00, alpha:1.0)
